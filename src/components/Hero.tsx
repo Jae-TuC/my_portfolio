@@ -2,7 +2,7 @@ import { motion } from 'motion/react'
 import { Mail, Github } from 'lucide-react'
 
 export const Hero = () => {
-  const skills = ['React.js', 'Next.js', 'TypeScript', 'Tailwind', 'Redux', 'Zustand']
+  const skills = ['React.js / Nextjs', 'TypeScript', 'Express.js / Nestjs', 'Tailwind', 'Redux', 'Zustand']
 
   return (
     <section id="home" className="min-h-screen pt-30 md:pt-40 pb-16 md:pb-0 px-4 sm:px-6">
