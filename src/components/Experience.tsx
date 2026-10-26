@@ -61,23 +61,24 @@ const ExperienceTimeline = ({ item, index }: { item: ExperienceItem; index: numb
 export const Experience = () => {
   const experiences: ExperienceItem[] = [
     {
-      period: '2020 - PRESENT',
-      title: 'Senior Frontend Engineer',
-      company: 'Independent Product Development',
+      period: '2020 — PRESENT',
+      title: 'Frontend Engineer',
+      company: 'Freelance & Contract · Remote',
       achievements: [
-        'Shipped 5+ production-ready React.js/Next.js applications, demonstrating full product lifecycle ownership from concept through deployment',
-        'Engineered reusable component libraries following design system principles, enabling rapid feature development and consistent UI across projects',
-        'Implemented complex state management using Zustand and Redux to handle intricate user workflows and data synchronization'
+        'Worked with clients to take web products live: marketing sites, dashboards, and authenticated apps in React.js and Next.js — from first screens to a deployed URL they could share.',
+        'Sat in on scope and revision rounds, translated design files into working UI, and shipped the changes clients actually needed instead of overbuilding.',
+        'Built TypeScript APIs with Express.js and Nest.js when a project needed login, file handling, or server logic — so the frontend was not stuck on mock data.',
+        'Left behind reusable components and clear state (Zustand / Redux) so the next feature did not mean rewriting the same screens.'
       ]
     },
     {
-      period: `2023 - PRESENT`,
-      title: 'Frontend Development Instructor',
-      company: 'Technical Education',
+      period: '2023 — PRESENT',
+      title: 'Frontend Instructor',
+      company: 'Independent mentoring · Remote',
       achievements: [
-        'Designed and delivered frontend development curriculum with focus on React.js, Next.js, and modern tooling',
-        'Guided 50+ students through hands-on projects, helping them build and deploy their first production-style applications',
-        'Developed technical communication skills through explaining complex topics like state management, performance optimization, and API integration'
+        'Taught React.js, Next.js, and TypeScript through real project work: setup, features, bugs, and deploy — not slideshow-only classes.',
+        'Reviewed student code, explained what was broken in plain language, and stayed with them until the app was on the internet.',
+        'Covered how frontends talk to APIs so juniors could plug into a real backend instead of hard-coding every screen.'
       ]
     }
   ]
