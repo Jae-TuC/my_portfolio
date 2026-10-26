@@ -6,7 +6,7 @@ export const About = () => {
     {
       icon: Briefcase,
       title: 'Experience',
-      description: '4+ years of professional experience building production-grade applications with React ecosystem.'
+      description: '5+ years of professional experience building production-grade applications with React, Next.js, Express.js, and Nest.js.'
     },
     {
       icon: Rocket,
@@ -16,7 +16,7 @@ export const About = () => {
     {
       icon: Sparkles,
       title: 'Focus',
-      description: 'Modern React practices, TypeScript, state management, and creating exceptional user experiences.'
+      description: 'Shipping polished product surfaces in React and Next.js, with TypeScript APIs in Express.js and Nest.js when the work needs a backend.'
     }
   ]
 
@@ -54,9 +54,9 @@ export const About = () => {
               transition={{ duration: 0.8, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              Frontend Engineer with hands-on experience since 2020, building modern web applications with React.js and Next.js. 
-              Skilled in creating reusable UI components, scalable frontend architectures, and visually appealing, 
-              performance-optimized user interfaces.
+              Frontend Engineer with hands-on experience since 2020, building modern web applications with React.js and Next.js,
+              and backend services with Express.js and Nest.js. Skilled in creating reusable UI components, scalable architectures,
+              and visually appealing, performance-optimized user interfaces.
             </motion.p>
             
             <motion.p 
