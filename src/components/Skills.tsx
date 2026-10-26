@@ -86,37 +86,37 @@ export const Skills = () => {
     {
       title: 'Languages & Frameworks',
       icon: Code,
-      skills: ['JavaScript (ES6+)', 'TypeScript', 'HTML5', 'CSS3', 'React.js', 'Next.js', 'Vite.js']
+      skills: ['TypeScript', 'JavaScript (ES6+)', 'React.js', 'Next.js', 'Express.js', 'Nest.js']
     },
     {
-      title: 'UI/UX Development',
+      title: 'UI & Product',
       icon: Palette,
-      skills: ['Tailwind CSS', 'ShadCN UI', 'Chakra UI', 'Responsive Design', 'Design Systems', 'Figma Collaboration']
+      skills: ['Tailwind CSS', 'ShadCN UI', 'Chakra UI', 'Responsive layouts', 'Reusable components', 'Figma to code']
     },
     {
-      title: 'State & Data',
+      title: 'State & APIs',
       icon: Zap,
-      skills: ['Zustand', 'Redux', 'REST APIs', 'Axios', 'Fetch API', 'Zod (Validation)']
+      skills: ['Zustand', 'Redux', 'REST APIs', 'Axios', 'Zod', 'NextAuth']
     },
     {
-      title: 'Tools & Architecture',
+      title: 'Delivery',
       icon: Briefcase,
-      skills: ['Git & GitHub', 'Vite', 'Webpack', 'SEO (Next.js)', 'Component-Driven Architecture', 'Code Review', 'Technical Mentoring']
+      skills: ['Git & GitHub', 'Vite', 'Vercel', 'Code review', 'Client revisions', 'Mentoring']
     }
   ]
 
   const technicalHighlights: TechnicalHighlight[] = [
     {
-      title: 'Component Architecture',
-      description: 'Expert in building scalable, reusable component libraries and design systems'
+      title: 'Product UI',
+      description: 'I turn designs into React and Next.js screens a client can click through on a live URL — phone and desktop.'
     },
     {
-      title: 'Technical Leadership',
-      description: 'Combines hands-on development with mentoring and best practice establishment'
+      title: 'APIs when needed',
+      description: 'Express.js and Nest.js for login, files, and real data, so the frontend is not stuck on mock responses.'
     },
     {
-      title: 'UX Collaboration',
-      description: 'Experience working with designers to implement pixel-perfect, accessible interfaces'
+      title: 'Clean handover',
+      description: 'TypeScript, reusable components, and tidy state so the next feature does not mean rewriting the same screens.'
     }
   ]
 
